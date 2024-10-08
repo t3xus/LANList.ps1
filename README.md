@@ -1,37 +1,45 @@
-# LANList.ps1
+# **LANList Script**
 
-PowerShell script designed to collect network information from all LAN computers and generate an HTML report.
+> **Version:** 1.9  
+> **Author:** James Gooch  
+> **Compatibility:** Windows PowerShell 5.1 or later  
+> **Required Dependencies:**  
+> - Active Directory Module  
+> - PowerShell Remoting (enabled)
 
-## Features
+---
 
-Checks the following Windows services on each computer:
-- **Remote Access Connection Manager** (`RemoteAccess`)
-- **Remote Access Auto Connection Manager** (`RasAuto`)
-- **Windows Event Log** (`EventLog`)
-- **Remote Registry** (`RemoteRegistry`)
+## 📝 **Synopsis**
 
-### Network Machine Discovery:
-- Uses `Get-ADComputer` to retrieve the list of computers in your Active Directory domain.
+**LANList.ps1** is a PowerShell script that generates a detailed network report for all machines within a domain. It collects and reports key information about IP addresses, MAC addresses, open ports, logged-in users, and the status of critical services like Remote Access and Windows Event Log. 
 
-### Gathering Data from Each Machine:
-- **IP Address**: Uses `Test-Connection` to retrieve the IPv4 addresses.
-- **MAC Address**: Uses `Get-WmiObject` and `Win32_NetworkAdapterConfiguration` to get the MAC addresses.
-- **Logged-In User**: Uses `Win32_ComputerSystem` to get current user.
-- **Open Ports**: Uses `Get-NetTCPConnection` to list open ports.
-- **Service Status**: Uses `Get-Service` for service state.
+---
 
-### Output:
-- Script generates an HTML report using `ConvertTo-Html`.
+## 📋 **Description**
 
-## How to Use
+This script performs network discovery by gathering the following data from each machine on the domain:
 
-### Prepare the Environment:
-1. **Ensure that PowerShell Remoting is enabled** on all target machines.
-2. **Ensure the Active Directory module is installed and imported**:
-   ```powershell
-   Import-Module ActiveDirectory
+- **IP Address**: Retrieved via `Test-Connection`.
+- **MAC Address**: Fetched using `Get-WmiObject` and `Win32_NetworkAdapterConfiguration`.
+- **Logged-In User**: Retrieved using `Win32_ComputerSystem`.
+- **Open Ports**: Listed using `Get-NetTCPConnection`.
+- **Service Status**: Checks the status of key services such as:
+  - **Remote Access Connection Manager** (`RemoteAccess`)
+  - **Remote Access Auto Connection Manager** (`RasAuto`)
+  - **Windows Event Log** (`EventLog`)
+  - **Remote Registry** (`RemoteRegistry`)
 
-### Running LanList.ps1:
+The script consolidates the data and generates a modern HTML report, output to a file for easy viewing and analysis.
 
-1. **Install with LANList-Installer.ps1
-2. **Double click the LanList.ps1 on your desktop.**:
+---
+
+## ⚙️ **Parameters**
+
+> None. Note: May use desktop icon to start if installed with LanList-Installer.ps1
+
+---
+
+## 💡 **Usage Example**
+
+```powershell
+PS C:\> .\LANList.ps1
