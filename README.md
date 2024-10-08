@@ -1,4 +1,4 @@
-# **LANList Script**
+# **LANList PS Script**
 
 > **Version:** 1.9  
 > **Author:** James Gooch  
