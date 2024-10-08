@@ -11,7 +11,7 @@
 
 ## 📝 **Synopsis**
 
-**LANList.ps1** is a PowerShell script that generates a detailed network report for all machines within a domain. It collects and reports key information about IP addresses, MAC addresses, open ports, logged-in users, and the status of critical services like Remote Access and Windows Event Log. 
+**LANList.ps1** is a PowerShell script that generates a report for all LAN machines. It collects IP addresses, MAC addresses, open ports, logged-in users, and the status of critical services like Remote Access and Windows Event Log. 
 
 ---
 
@@ -29,7 +29,7 @@ This script performs network discovery by gathering the following data from each
   - **Windows Event Log** (`EventLog`)
   - **Remote Registry** (`RemoteRegistry`)
 
-The script consolidates the data and generates a modern HTML report, output to a file for easy viewing and analysis.
+The script consolidates the data and generates an HTML report.
 
 ---
 
