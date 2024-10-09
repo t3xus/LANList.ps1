@@ -4,6 +4,8 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![npm](https://img.shields.io/npm/v/package-name)
+![GitHub contributors](https://img.shields.io/github/contributors/owner/repository)
+
 
 
 > **Version:** 1.9  
