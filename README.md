@@ -7,7 +7,7 @@
 
 ![Static Badge](https://img.shields.io/badge/Distribution-npm-orange)
 
-![Static Badge](https://img.shields.io/badge/Author-Jgooch-Green)
+![Static Badge](https://img.shields.io/badge/Author-Jgooch-1F4D37)
 
 
 > **Version:** 1.9  
