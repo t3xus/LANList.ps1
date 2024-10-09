@@ -1,5 +1,4 @@
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) 
+
 ## **LANList PS Script**
 ![Static Badge](https://img.shields.io/badge/Author-Jgooch-1F4D37)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -21,12 +20,6 @@ It collects IP addresses, MAC addresses, open ports, logged-in users, and the st
   - **Remote Registry** (`RemoteRegistry`)
 
 The script consolidates the data and generates an HTML report.
-
----
-
-## ⚙️ **Parameters**
-
-> None. Note: May use desktop icon to start if installed with LanList-Installer.ps1
 
 ---
 
