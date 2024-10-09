@@ -4,29 +4,11 @@
 ![Static Badge](https://img.shields.io/badge/Author-Jgooch-1F4D37)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Static Badge](https://img.shields.io/badge/Distribution-npm-orange)
-![Target](https://img.shields.io/badge/Target-Microsoft%20Windows%2011%20Professional-1F4D37)
+![Target](https://img.shields.io/badge/Target-Microsoft%20Windows%2011%20Professional-357EC7)
 
 
-
-
-> **Version:** 1.9  
-> **Author:** James Gooch  
-> **Compatibility:** Windows PowerShell 5.1 or later  
-> **Required Dependencies:**  
-> - Active Directory Module  
-> - PowerShell Remoting (enabled)
-
----
-
-## 📝 **Synopsis**
-
-**LANList.ps1** is a PowerShell script that generates a report for all LAN machines. It collects IP addresses, MAC addresses, open ports, logged-in users, and the status of critical services like Remote Access and Windows Event Log. 
-
----
-
-## 📋 **Description**
-
-This script performs network discovery by gathering the following data from each machine on the domain:
+**LANList.ps1** is a PowerShell script that generates a report for all LAN machines. 
+It collects IP addresses, MAC addresses, open ports, logged-in users, and the status of critical services like Remote Access and Windows Event Log. 
 
 - **IP Address**: Retrieved via `Test-Connection`.
 - **MAC Address**: Fetched using `Get-WmiObject` and `Win32_NetworkAdapterConfiguration`.
