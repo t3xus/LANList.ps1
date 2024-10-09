@@ -3,7 +3,6 @@
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![npm](https://img.shields.io/npm/v/package-name)
-![GitHub release](https://img.shields.io/github/v/release/owner/repository)
 
 
 > **Version:** 1.9  
