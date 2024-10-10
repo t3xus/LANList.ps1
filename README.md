@@ -5,8 +5,6 @@
 ![Static Badge](https://img.shields.io/badge/Distribution-npm-orange)
 ![Target](https://img.shields.io/badge/Target-Microsoft%20Windows%2011%20Professional-357EC7)
 
-# Supported Platforms
-
 ![Windows Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToJdo1ENov4AmAmS1VxCUWba1ylMODgf3KMA&s) 
 
 **LANList.ps1** is a PowerShell script that generates a report for all LAN machines. 
