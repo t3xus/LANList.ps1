@@ -7,7 +7,7 @@
 
 # Supported Platforms
 
-![Windows Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi_RTXZzIQhFY3hFWYBaWdgcDTLxnL942CRQ&s) **Windows**
+![Windows Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi_RTXZzIQhFY3hFWYBaWdgcDTLxnL942CRQ&s) 
 
 **LANList.ps1** is a PowerShell script that generates a report for all LAN machines. 
 It collects IP addresses, MAC addresses, open ports, logged-in users, and the status of critical services like Remote Access and Windows Event Log. 
