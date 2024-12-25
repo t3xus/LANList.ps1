@@ -31,12 +31,12 @@
 
 1. **Run the Script**:
     ```powershell
-    PS C:\> .\LANListPS-Combined.ps1
+    PS C:\> .\LANListPS.ps1
     ```
 
 2. **Schedule the Script**:
     ```powershell
-    PS C:\> .\LANListPS-Combined.ps1 -Schedule Daily -StartTime "3:00AM"
+    PS C:\> .\LANListPS.ps1 -Schedule Daily -StartTime "3:00AM"
     ```
 
 ---
