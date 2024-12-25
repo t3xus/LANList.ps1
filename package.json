@@ -1,0 +1,20 @@
+{
+    "name": "lanlistps-combined",
+    "version": "1.0.0",
+    "description": "All-in-one script for network auditing and reporting on Windows networks.",
+    "main": "LANListPS-Combined.ps1",
+    "scripts": {},
+    "author": "Gooch, James",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/username/LANListPS-Combined"
+    },
+    "keywords": [
+        "LAN",
+        "network",
+        "PowerShell",
+        "audit",
+        "report"
+    ]
+}
